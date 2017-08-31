@@ -1,0 +1,88 @@
+extends ../_layouts/base
+include ../_modules/hero/hero
+
+block title
+    title Torneos | Producción de Contenido
+
+block config
+  //- Correct base url pathing for this page
+  - var baseUrl = '../'
+
+block content
+    main.produccion
+        +hero(site.data.produccion.hero)
+        
+        section.produccion__top
+            .container
+                .row.nopadding
+                    .col-xs-24.produccion__top__col
+                        .produccion__top__text__block
+                            p.produccion__top__text.wow.fadeInRightBig= site.data.produccion.top.textcol.text
+                            img.img-responsive.produccion__top__img.wow.fadeInUp(src=site.data.produccion.top.textcol.img)
+                        .produccion__top__highlight
+                            img.img-responsive.produccion__top__img.wow.fadeInUp(src=site.data.produccion.top.highlight)
+        
+        section.produccion__channels
+            .container
+                .row
+                    .col-xs-24.produccion__channels__col
+                        each channel, index in site.data.produccion.channels
+                            .produccion__channel.wow.fadeInUp(data-wow-delay="#{(index + 1)/8}s")
+                                img.produccion__channel__logo(src=channel.logo)
+                                p.produccion__channel__text= channel.text
+
+        section.produccion__grid
+            .container
+                each row in site.data.produccion.grid.rows
+                    .row.produccion__grid__row  
+                        each item, index in row.cols
+                            if item.type == 'image'
+                                .col-xs-24.col-sm-14.produccion__grid__col.produccion__grid__col--img.wow.fadeInRightBig(data-wow-delay="#{(index + 1)/4}s")
+                                    img.produccion__grid__image(src=item.img)
+                            if item.type == 'text'
+                                .col-xs-12.col-sm-5.produccion__grid__col.produccion__grid__col--text.wow.fadeInRightBig(data-wow-delay="#{(index + 1)/4}s")
+                                    if item.img 
+                                        img(src=item.img)
+                                    p.produccion__grid__text!=item.text
+
+        section.produccion__services
+            .produccion__services__photo-row
+                each image, index in site.data.produccion.services.photorow
+                    .produccion__services__photo-row__photo.wow.fadeInLeftBig(data-wow-delay="#{(index + 1)/4}s")
+                        img(src=image)
+            .container
+                .row.nopadding
+                    .col-xs-24.produccion__services__header
+                        h2.produccion__services__title= site.data.produccion.services.title
+                        .produccion__services__text__box
+                            p.produccion__services__text= site.data.produccion.services.text
+                    .col-xs-24.col-sm-16.pull-right.produccion__services__contentbox.wow.fadeInUp
+                        h3.produccion__services__contentbox__title= site.data.produccion.services.contentone.title
+                        ul.produccion__services__contentbox__list
+                            each item in site.data.produccion.services.contentone.features
+                                li= item.text
+                                if item.list
+                                    ul
+                                        each subitem in item.list
+                                            li=subitem
+                        .produccion__services__contentbox__images
+                            each img in site.data.produccion.services.contentone.images
+                                .produccion__services__contentbox__image
+                                    img(src=img)
+                    
+                    .col-xs-24.col-sm-16.produccion__services__contentbox.produccion__services__contentbox--alt.wow.fadeInUp
+                        h3.produccion__services__contentbox__title= site.data.produccion.services.contenttwo.title
+                        ul.produccion__services__contentbox__list
+                            each item in site.data.produccion.services.contenttwo.features
+                                li= item.text
+                                if item.list
+                                    ul
+                                        each subitem in item.list
+                                            li=subitem
+                    
+                    
+                
+            
+            
+                    
+                    

@@ -1,0 +1,17 @@
+{
+    "hero": {
+        "title": "Comercialización de derechos audiovisuales"
+    },
+    "top": {
+        "text":"Torneos es líder en la región en la comercialización de los derechos audiovisuales de los eventos deportivos más relevantes.",
+        "logos":[
+            "/images/derechos/logo1.jpg",
+            "/images/derechos/logo2.jpg",
+            "/images/derechos/logo3.jpg",
+            "/images/derechos/logo4.jpg",
+            "/images/derechos/logo5.jpg",
+            "/images/derechos/logo6.jpg",
+            "/images/derechos/logo7.jpg"
+        ]
+    }
+}

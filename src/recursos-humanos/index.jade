@@ -1,0 +1,80 @@
+extends ../_layouts/base
+
+include ../_modules/hero/hero
+
+block title
+    title Torneos | Recursos Humanos
+
+block config
+  //- Correct base url pathing for this page
+  - var baseUrl = '../'
+
+block content
+    main.rrhh
+        +hero(site.data.rrhh.hero)
+        
+        section.rrhh__body
+            .container
+                .row
+                    .col-xs-24
+                        p.rrhh__text.rrhh__text--uppercase= site.data.rrhh.top.text
+                        
+            
+            .container-fluid
+                .row.nopadding-xs
+                    .col-xs-24.col-sm-12.rrhh__body__imgcol
+                        img.rrhh__body__img(src=site.data.rrhh.top.img)
+                    .col-xs-24.col-sm-12
+                        .rrhh__half-container
+                            each p in site.data.rrhh.top.content
+                                p.rrhh__text.rrhh__text--body= p
+                            
+                            .rrhh__body__highlight.wow.fadeInRightBig
+                                h2
+                                    | ¡Somos torneos y te  
+                                    strong estamos buscando!
+                                
+        section.rrhh__middle
+            .container
+                .row.nopadding-xs
+                    .col-xs-24.col-sm-12.col-md-14
+                        img.rrhh__middle__img.wow.fadeInLeftBig(src=site.data.rrhh.middle.img)
+                    .col-xs-24.col-sm-12.col-md-10
+                        h3.rrhh__middle__title= site.data.rrhh.middle.title
+                        p.rrhh__middle__text= site.data.rrhh.middle.text
+                        h4.rrhh__middle__subtitle= site.data.rrhh.middle.subtitle1
+                        a(href="#", target="_blank")
+                            img.rrhh__middle__logo(src="/images/rrhh/hiringroom.png")
+                        h4.rrhh__middle__subtitle= site.data.rrhh.middle.subtitle2
+                        a(href="#", target="_blank")
+                            img.rrhh__middle__logo(src="/images/rrhh/linkedin.png")
+                            
+        section.rrhh__jobs
+            .container-fluid
+                .row.nopadding
+                    .col-xs-24.col-sm-18.col-md-14.pull-right.rrhh__jobs__titlecol
+                        h2.rrhh__jobs__title!= site.data.rrhh.middle.highlight
+                    
+            .container
+                .row
+                    .col-xs-24
+                        ul.rrhh__jobs__list
+                            each job in site.data.rrhh.jobs1
+                                li.rrhh__jobs__job.wow.fadeInUp
+                                    h3.rrhh__jobs__job__name= job.name
+                                    p.rrhh__jobs__job__desc!= job.desc
+                                    a.rrhh__jobs__job__link(href=job.link, target="_blank") Postularme
+                                    if job.isnew == true
+                                        span.rrhh__jobs__job__tag Nuevo
+                                        
+                        ul.rrhh__jobs__list
+                            each job in site.data.rrhh.jobs2
+                                li.rrhh__jobs__job.wow.fadeInUp
+                                    h3.rrhh__jobs__job__name= job.name
+                                    p.rrhh__jobs__job__desc!= job.desc
+                                    a.rrhh__jobs__job__link(href=job.link, target="_blank") Postularme
+                                    if job.isnew == true
+                                        span.rrhh__jobs__job__tag Nuevo
+                            
+                        
+                    

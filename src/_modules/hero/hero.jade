@@ -1,0 +1,13 @@
+mixin hero(data)
+    section.hero
+        .hero__overlay
+    .container
+        .row
+            .col-xs-24
+                .hero__title__box.wow.fadeInLeft
+                    h1.hero__title= data.title
+                    if data.desc
+                        p.hero__desc= data.desc
+                if block
+                    block
+                    

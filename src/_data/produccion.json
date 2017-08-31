@@ -1,0 +1,197 @@
+{
+    "hero":{
+        "title":"Producción de Coontenidos",
+        "desc": "Torneos produce más de 18.000 horas anuales de programación para las principales señales de Latinoamérica: FOX Sports, DIRECTV Sports, TyC Sports y The Golf Channel y los canales de aire El trece y TV Pública. También produce contenido para el sitio deportivo www.elgrafico.com.ar"
+    },
+    "top":{
+        "textcol":{
+            "text":"Produce en forma exclusiva Eventos de la Conmebol: la Copa Conmebol Libertadores y la Copa Conmebol Sudamericana para toda la región, así como también la Copa Argentina, el Fútbol de Verano, y los partidos amistosos de la selección Argentina. Fue el Host Broadcaster en la Copa América de Argentina en 2011 y de Chile en 2015, y también fue la empresa encargada de producir los Juegos Olímpicos para las diversas señales como FOX y DIRECTV Sports.",
+            "img":"/images/produccion/image2.jpg"
+        },
+        "highlight": "/images/produccion/image1.jpg"
+    },
+    "channels": [
+        {
+            "logo":"/images/produccion/logo1.jpg",
+            "text":"Torneos produce contenidos originales para FOX Sports, FOX Sports 2 y FOX Sports 3. Producciones originales como Agenda FOX Sports, 90 Minutos, FOX Sports Radio, FOX Gol, La Llave de Gol, Debate Final, NET, Central FOX, Central FOX NITRO, y Expediente Fútbol. Además, Torneos es el productor integral de FOX Sports para los derechos de Copa Conmebol Libertadores y Copa Conmebol Sudamericana."
+        },
+        {
+            "logo":"/images/produccion/logo2.jpg",
+            "text":"En 1994, Torneos junto al Grupo Clarín, crean TyC Sports, la primera señal de cable deportiva de la Argentina. Hoy Torneos es la encargada de producir los  1.300  eventos en vivo anuales de la señal: Fútbol, Handball, Basquet, Voley, Boxeo y Tenis. Con un equipo de excelentes periodistas deportivos, productores, directores y técnicos."
+        },
+        {
+            "logo":"/images/produccion/logo3.jpg",
+            "text":"Torneos produce “Pasión por el Fútbol”, programa semanal que inicio en marzo de 2017 con la conducción de Sebastián Pollo Vignolo y un gran equipo integrado por Horacio Pagani, Oscar Ruggeri y Toti Pasman."
+        },
+        {
+            "logo":"/images/produccion/logo4.jpg",
+            "text":"Desde 2005 Torneos produce eventos especiales y contenido para DIRECTV Sports 1, DIRECTV Sports 2, y canales alternativos de la señal. Se realizan más de 6500 horas, aportando reconocidos periodistas deportivos, equipo especializado de producción y técnica, 2 estudios completos (293 m2) equipados con tecnología de avanzada, la producción de gráficas para los programas y promociones on air, y provisión de Master Control."
+        },
+        {
+            "logo":"/images/produccion/logo5.jpg",
+            "text":"Desde 2007 produce programas y eventos para la señal. Con cobertura especial en eventos y torneos destacados."
+        },
+        {
+            "logo":"/images/produccion/logo6.jpg",
+            "text":"Torneos será la empresa encargada de la producción de todos los partidos de la Copa del Mundo FIFA 2018."
+        },
+        {
+            "logo":"/images/produccion/logo7.jpg",
+            "text":"Torneos produce contenidos para el sitio web www.elgrafico.com.ar."
+        }
+    ],
+    "grid":{
+        "rows":[
+            {
+                "cols":[
+                    {
+                        "type":"image",
+                        "img":"/images/produccion/grid1.jpg"
+                    },
+                    {
+                        "type":"text",
+                        "text":"Más de <strong>35</strong> Años produciendo entretenimiento"
+                    },
+                    {
+                        "type":"text",
+                        "text":"Más de <strong>18.000</strong> Horas anuales de TV"
+                    }
+                ]
+            },
+            {
+                "cols":[
+                    {
+                        "type":"text",
+                        "text":"<strong>8</strong> Copas Mundiales de Fútbol"
+                    },
+                    {
+                        "type":"text",
+                        "text":"<strong>17</strong> Copas Libertadores"
+                    },
+                    {
+                        "type":"image",
+                        "img":"/images/produccion/grid2.jpg"
+                    }
+                ]
+            },
+            {
+                "cols":[
+                    {
+                        "type":"text",
+                        "text":"<strong>9</strong> Copa Davis",
+                        "img":"/images/produccion/grid3.jpg"
+                    },
+                    {
+                        "type":"text",
+                        "text":"<strong>16</strong> Copas Sudamericanas"
+                    },
+                    {
+                        "type":"text",
+                        "text":"<strong>26</strong> Torneos de Verano",
+                        "img":"/images/produccion/grid4.jpg"
+                    },
+                    {
+                        "type":"text",
+                        "text":"<strong>9</strong> ATP de<br>Buenos Aires"
+                    }
+                ]
+            }
+        ]
+    },
+    "services":{
+        "photorow": [
+            "/images/produccion/servicios1.jpg",
+            "/images/produccion/servicios2.jpg",
+            "/images/produccion/servicios3.jpg",
+            "/images/produccion/servicios4.jpg"
+        ],
+        "title":"Servicios de Producción",
+        "text":"Torneos puede dar soluciones integrales a sus clientes, ya que cuenta con móviles y estudios propios de última tecnología, operados por profesionales responsables y altamente preparados.",
+        "contentone":{
+            "title": "operación en nuestro edificio",
+            "features":[
+                {
+                    "text":"- 5 Estudios de TV"
+                },
+                {
+                    "text":"- 3 controles de producción"
+                },
+                {
+                    "text": "- 5 controles para OFF TUBE completamente equipados"
+                },
+                {
+                    "text":"- Sistema de edición centralizado:",
+                    "list":[
+                        "18 Islas de edición AVID",
+                        "20 canales de ingesta",
+                        "1200 horas online"
+                    ]
+                },
+                {
+                    "text":"- Sistema de archivo digital con más de 30.000 eventos deportivos"
+                },
+                {
+                    "text":"- MCR/TOC con conectividad satelital y fibra"
+                },
+                {
+                    "text":"- Set virtual/operación y diseño de gráfica virtual"
+                },
+                {
+                    "text":"- Más de 18.000 horas en servicios de operación y técnica para nuestro equipo de producción."
+                }
+            ],
+            "images": [
+                "/images/produccion/servicios5.jpg",
+                "/images/produccion/servicios6.jpg"
+            ]
+        },
+        "contenttwo":{
+            "title": "operación en exteriores",
+            "features":[
+                {
+                    "text":"- 2 OB VAN 12 cámaras + super slow motion + steady cam + RF cámaras",
+                	"list":[
+                        "Cámaras Sony",
+                        "Grass valley video switcher"
+                    ]
+                },
+                {
+                    "text":"- 6 DSNG. Minimóviles con uplink satelital",
+                    "list":[
+                        "3 cámaras HD",
+                        "Switcher de producción",
+                        "1.5 mts. Gigasat antena full redundante"
+                    ]
+                },
+                {
+                    "text":"- 2 Fly away uplink full redundantes",
+                    "list":[
+                        "2.4 mts KU band gigasat",
+                        "2.4 mts C band gigasat"
+                    ]
+                },
+                {
+                    "text":"- 10 ENG System / kit para servicios de producción (streaming en vivo 4G)"
+                },
+                {
+                    "text":"- Director y staff técnico para producción de exteriores",
+                    "list":[
+                        "Directores de TV con más de 15 años de experiencia",
+                        "Host broadcaster de Copa Libertadores desde 2001",
+                        "Host broadcaster de Copa América 2011, 2015",
+                        "Host broadcaster FIFA WC Sub 20 en 2001"
+                    ]
+                },
+                {
+                    "text":"- Servicios de operación y técnica para nuestro equipo de producción:",
+                    "list": [
+                        "Plan de cámaras",
+                        "Booking satelital/fibra",
+                        "Alquiler de móviles de producción locales",
+                        "Operación integral en exteriores."
+                    ]
+                }
+            ]
+        }
+    }
+}

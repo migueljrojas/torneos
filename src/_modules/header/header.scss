@@ -1,0 +1,267 @@
+.header{
+
+    $h: &;
+
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index:10000;
+
+    &__container {
+        background: transparent;
+        transition: all $duration $easing;
+        @include mq(md) {
+            background: $blue;
+            padding: 10px;
+            height: 60px;
+            position: relative;
+        }
+    }
+
+    &__hamburguer {
+        width: 35px;
+        padding: 7px 5px;
+        position: absolute;
+        right:$base/2;
+        top:$base/2;
+        z-index:5;
+        background: $blue;
+        transition: all $duration $easing;
+
+        span {
+            background: $white;
+            display: block;
+            height:3px;
+            transition: all .5s ease;
+
+            &:not(:last-child) {
+                margin-bottom: 5px;
+            }
+        }
+
+        @include mq(md){
+            display:none;
+        }
+    }
+
+    &__logo {
+        display: flex;
+        width: 40%;
+        justify-content: flex-start;
+        position: relative;
+        z-index:5;
+        transition: all $duration $easing;
+        top:-100px;
+        height: 120px;
+
+        @include mq(md){
+            width:100px;
+            justify-content: flex-start;
+            top:10px;
+            left:10px;
+            float: left;
+            position: absolute;
+        }
+
+        svg {
+            fill: $white;
+            width: 100px;
+            height: 70%;
+            transition: all $duration $easing;
+            position: absolute;
+            top:10px;
+
+            @include mq(md){
+                height: 40px;
+                top:0;
+            }
+        }
+    }
+
+    &__nav {
+        display: block;
+        position: absolute;
+        width: 100%;
+        background: $blue;
+        top:0;
+        left:0;
+        z-index:1;
+        transition: all $duration $easing;
+        transform: translateY(-110%);
+        padding: 120px 0 20px;
+        border-bottom: 5px solid $white;
+
+        @include mq(md) {
+            position: relative;
+            transform: translateY(0);
+            display: flex;
+            border-bottom:none;
+            padding: 0;
+            float: right;
+            width: calc(100% - 140px);
+            justify-content: space-between;
+            top:10px;
+        }
+    }
+
+    &__menu {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+
+        @include mq(md){
+            flex-direction: row;
+        }
+
+        a {
+            color:$white;
+            display: block;
+            padding: 5px 0;
+            text-transform: uppercase;
+            font-size:18px;
+            text-decoration: none;
+            transition: all $duration $easing;
+
+            @include mq(md){
+                font-size:14px;
+            }
+        }
+
+        li {
+            border-bottom: 1px dotted $darkBlue;
+            position: relative;
+
+            @include mq(md){
+                border:none;
+                margin-right: 20px;
+            }
+
+            &:last-child {
+                a {
+                    color:$darkBlue;
+                }
+            }
+
+            &:before {
+                transition: all $duration $easing;
+                content: '';
+                width: 5px;
+                background-color:$darkBlue;
+                position: absolute;
+                bottom:-10px;
+                left:50%;
+                height: 0;
+            }
+
+            &.-active {
+                @include mq(sm){
+                    a {
+                        color:$darkBlue;
+                    }
+
+                    &:before {
+                        height: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    &__lang {
+        color:$darkBlue;
+        font-size:18px;
+        padding: 5px 0;
+        display: flex;
+        justify-content: center;
+        transition: all $duration $easing;
+
+        @include mq(md){
+            position: absolute;
+            top:-5px;
+            right:20px;
+        }
+
+        a {
+            color:$darkBlue;
+            font-size:18px;
+            letter-spacing: 2px;
+            margin: 0 5px;
+
+            &.-active {
+                font-weight: 700;
+            }
+        }
+    }
+
+    &.-ontop {
+        #{$h}__logo {
+            width: 70%;
+            top:10px;
+            svg {
+                width: 180px;
+                height: 70%;
+
+                @include mq(md){
+                    width: 200px;
+                }
+            }
+
+            @include mq(md){
+                width: 100%;
+                top: 50px;
+                left:calc(50% - 150px);
+
+            }
+        }
+
+        #{$h}__nav {
+            @include mq(md){
+                top:150px;
+            }
+        }
+
+        #{$h}__hamburguer {
+            background: transparent;
+        }
+
+        #{$h}__container {
+            @include mq(md) {
+                height: 250px;
+                padding-top: 50px;
+            }
+        }
+
+        #{$h}__lang {
+            @include mq(md){
+                top:-185px;
+            }
+        }
+
+        #{$h}__menu {
+            li{
+                &:before {
+                    bottom: -20px;
+                }
+                &.-active {
+                    @include mq(sm){
+
+                        &:before {
+                            height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.-open {
+        #{$h}__nav {
+            transform: translateX(0);
+        }
+
+        #{$h}__logo {
+            width: 40%;
+            top:0;
+        }
+    }
+}

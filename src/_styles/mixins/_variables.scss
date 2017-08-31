@@ -1,0 +1,137 @@
+$white: #fff;
+$black: #000;
+$corpBlack: #3e372c;
+$darkestGray: #444340;
+$darkGray: #787871;
+$midGray: #999;
+$lightGray: #ebebeb;
+$lightestGray: #f4f7f8;
+$blue: #00b4ec;
+$darkBlue: #00598a;
+$turqoise: #00abbf;
+
+$link: $blue;
+$linkHover: $blue + #333;
+$text: $darkGray;
+$textLight: $white;
+$textDark: $darkestGray;
+$textBlack: $black;
+$accent: $blue;
+$accentAlt: $turqoise;
+$bg: $white;
+$bgSecondary: $lightestGray;
+$bgDark: $darkestGray;
+
+$base: 40px;
+$radius: 5px;
+
+$duration: 0.3s;
+$easing: cubic-bezier(.785, .135, .15, .86);
+$easingLight: ease;
+
+$mainFont: 'Gotham', sans-serif;
+
+@mixin roundedShape($mode: left, $bg: $darkestGray) {
+    position: relative;
+    
+    @if $mode == left {
+        &:after,
+        &:before {
+            content: '';
+            background: $bg;
+            display: block;
+            position: absolute;
+            right:100%;
+        }
+
+        &:before{
+            top:0;
+            width: 20%;
+            height: 60%;
+        }
+
+        &:after{
+            top:60%;
+            width: 20%;
+            height: 40%;
+            border-radius: 0 0 0 100%;
+        }
+    }
+
+    @if $mode == right {
+        &:after,
+        &:before {
+            content: '';
+            background: $bg;
+            display: block;
+            position: absolute;
+            left:100%;
+        }
+
+        &:before{
+            top:0;
+            width: 20%;
+            height: 60%;
+        }
+
+        &:after{
+            top:60%;
+            width: 20%;
+            height: 40%;
+            border-radius: 0 0 100% 0;
+        }
+    }
+}
+
+@mixin plusLink($color: $white, $bg: $darkestGray) {
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    background: $bg;
+    color:$color;
+    padding: 0 5px;
+    margin-left: 20px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all $duration $easing;
+    font-size: 16px;
+    cursor:pointer;
+
+    @include mq(md) {
+        font-size: 24px;
+        margin-left: 24px;
+    }
+
+    &:before,
+    &:after {
+        content: '';
+        position: absolute;
+        left:-20px;
+        top:10px;
+        height: 2px;
+        width: 20px;
+        background: $bg;
+        display: block;
+        transition: all $duration $easing;
+
+        @include mq(md) {
+            width: 24px;
+            top:13px;
+            left:-24px;
+        }
+    }
+
+    &:after {
+        transform: rotate(90deg);
+    }
+
+    &:hover {
+        background: $bg - #333;
+
+        &:before,
+        &:after {
+            background: $bg - #333;
+        }
+    }
+}

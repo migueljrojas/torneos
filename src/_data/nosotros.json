@@ -1,0 +1,133 @@
+{
+    "hero": {
+        "title": "Quienes Somos",
+        "desc": "Torneos es una compañía de marketing deportivo y productora líder en Latinoamérica. Cuenta con más de 35 años en la industria del entretenimiento, y sus actividades principales incluyen la generación y producción de contenidos audiovisuales deportivos a nivel regional, la adquisición y comercialización de derechos audiovisuales, y la organización de eventos deportivos."
+    },
+    "top": {
+        "text": "Torneos también gestiona las licencias de los clubes de fútbol más destacados de Argentina y las tiendas online de AFA, Boca Juniors, Independiente y Estudiantes de La Plata. Torneos desde 1998 dirige El Gráfico, revista deportiva fundada en 1919.",
+        "images": [
+            "/images/nosotros/top1.jpg",
+            "/images/nosotros/top2.jpg",
+            "/images/nosotros/top3.jpg",
+            "/images/nosotros/top4.jpg"
+        ]
+    },
+    "history": {
+        "title": "Nuestra Historia",
+        "lists": [
+            {
+                "list": [
+                    {
+                        "year":"1982",
+                        "mode":"right",
+                        "text":"Torneos inicia sus actividades en los medios de comunicación en 1982, con un programa sobre golf.",
+                        "img": "/images/historia/1982.jpg"
+                    },
+                    {
+                        "year":"1985",
+                        "mode":"left",
+                        "text":"Apostando a la innovación tecnológica y a la capacidad creativa de sus profesionales, en 1985 produjo un programa que marcó su crecimiento como productora y cambió la historia de la cobertura del Fútbol en Argentina y Sudamérica: <strong>Fútbol de Primera.</strong>"
+                    }
+                ]
+            },
+            {
+                "list": [
+                    {
+                        "year":"1991",
+                        "mode":"right",
+                        "text":"En 1991, Torneos adquiere los derechos de TV del Torneo Oficial de Fútbol."
+                    },
+                    {
+                        "year":"1992",
+                        "mode":"left",
+                        "text":"En 1992 comienza con la organización del Torneo de Verano."
+                    },
+                    {
+                        "year":"1994",
+                        "mode":"right",
+                        "text":"En 1994, junto con el Grupo Clarín, crean TyC Sports, la primera señal de cable deportiva de la Argentina.",
+                        "img":"/images/historia/1994.jpg"
+                    },
+                    {
+                        "year":"1997",
+                        "mode":"left",
+                        "text":"Desde 1997 produce para FOX Sports en latinoamerica. FOX Sports Noticias llamado hoy Central FOX fue la primera producción y hoy en día lleva más de 17.000 horas al aire."
+                    },
+                    {
+                        "year":"1998",
+                        "mode":"right",
+                        "text":"Torneos edita la revista El Grafico. El primer número de la revista salió a la calle en Buenos Aires el 3 de mayo de 1919. Desde entonces se fue consolidando como una de las publicaciones deportivas más importantes del mundo, sin dudas la más trascendente de habla hispana."
+                    },
+                    {
+                        "year":"1998",
+                        "mode":"left",
+                        "text":"Torneos incursiona en el negocio de licencias de los clubes de fútbol sumando a River Plate."
+                    },
+                    {
+                        "year":"1998",
+                        "mode":"right",
+                        "text":"Torneos cubre la Copa del Mundo de Francia para todos los canales de aire."
+                    },
+                    {
+                        "year":"1999",
+                        "mode":"left",
+                        "text":"Fútbol de Primera gana el Martín Fierro de Oro, máximo premio de la TV Argentina."
+                    }
+                ]
+            },
+            {
+                "list": [
+                    {
+                        "year":"2002",
+                        "mode":"right",
+                        "text":"Torneos cubre la Copa del Mundo Corea-Japón para América y Fox Sports."
+                    },
+                    {
+                        "year":"2005",
+                        "mode":"left",
+                        "text":"Desde 2005 Torneos produce eventos especiales y contenido para DIRECTV Sports.",
+                        "img":"/images/historia/2005.jpg"
+                    },
+                    {
+                        "year":"2006",
+                        "mode":"right",
+                        "text":"Torneos cubre la Copa del Mundo Alemania para DIRECTV, TyC Sports, Telefé, Canal 13 y Canal 9.",
+                        "img":"/images/historia/2006.jpg"
+                    },
+                    {
+                        "year":"2009",
+                        "mode":"right",
+                        "text":"Torneos es la primera productora en generar contenido en alta definición.",
+                        "img": "/images/historia/2009.jpg"
+                    },
+                    {
+                        "year":"2010",
+                        "mode":"left",
+                        "text":"Cobertura total de la Copa del Mundo Sudáfrica para DIRECTV Sports, TyC Sports, Canal 7 y Telefé."
+                    },
+                    {
+                        "year":"2011",
+                        "mode":"right",
+                        "text":"En 2011 Host Broadcaster de la Copa América disputada en Argentina."
+                    },
+                    {
+                        "year":"2013",
+                        "mode":"left",
+                        "text":"En 2013 Torneos comienza con la organización de la Copa Argentina.",
+                        "img": "/images/historia/2013.jpg"
+                    },
+                    {
+                        "year":"2014",
+                        "mode":"right",
+                        "text":"Cobertura total de la Copa del Mundo Brasil  para DIRECTV Sports, TV Publica, TyC sports."
+                    },
+                    {
+                        "year":"2015",
+                        "mode":"left",
+                        "text":"En 2015 Host Broadcaster de la Copa América disputada en Chile."
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,140 @@
+// footer styles
+.footer {
+    background: $white;
+    position: relative;
+    z-index: 2;
+
+    &__top {
+        background: url('/images/footer-mobile.jpg') no-repeat center center;
+        background-size: cover;
+        display: flex;
+        height: 280px;
+        position: relative;
+        padding: 40px 0;
+        align-items: center;
+        width: 100%;
+
+        @include mq(sm) {
+            background: url('/images/footer.jpg') no-repeat center center fixed;
+            height: 400px;
+            background-size: cover;
+        }
+
+        @include mq(md) {
+            height: 580px;
+        }
+    }
+
+    &__overlay {
+        background: rgba(0,0,0,.3) url('/images/home/pattern.png') repeat;
+        position: absolute;
+        top:0;
+        bottom:0;
+        right:0;
+        left:0;
+        z-index:0;
+    }
+
+    &__contact {
+        color:$textLight;
+        font-size: 21px;
+
+        .icon {
+            float: left;
+            width: 50px;
+            height: 200px;
+            text-align: center;
+
+            i{
+                font-size: 36px;
+            }
+        }
+
+        a {
+            color:$textLight;
+        }
+    }
+
+    &__menu {
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            @include plusLink($corpBlack, $white);
+
+            font-weight: 700;
+
+            @include mq(sm) {
+                font-size: 18px;
+            }
+
+            &:before,
+            &:after {
+                display: none;
+            }
+
+            &:hover {
+                transform: translateX(10px);
+                color:inherit;
+            }
+        }
+    }
+
+    &__bottom {
+        padding: 20px 0;
+
+        p {
+            font-size: 11px;
+            margin: 0;
+        }
+
+        @include mq(sm){
+            padding: 40px 0;
+        }
+    }
+
+    &__copyright {
+        @include mq(sm){
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+            align-items: center;
+        }
+    }
+
+    &__logo {
+        width: 120px;
+        margin-bottom: 10px;
+
+        @include mq(sm){
+            margin-bottom:0;
+        }
+
+        svg {
+            width: 120px;
+            height:40px;
+
+            @include mq(sm){
+                width: 140px;
+                height:55px;
+            }
+        }
+    }
+
+    &__credits {
+        background: $bgSecondary;
+        text-align: center;
+        padding: 10px 0;
+
+        a{
+            color:$midGray;
+        }
+
+        img{
+            display: inline-block;
+            margin-left: 10px;
+            height: 30px;
+            opacity: .5;
+        }
+    }
+}

@@ -1,0 +1,63 @@
+.hero {
+    height: 60vh;
+    position: relative;
+
+    @include mq(md){
+        height: 80vh;
+    }
+
+
+    &__title {
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 28px;
+
+        @include mq(md) {
+            font-size: 32px;
+        }
+
+        @include mq(lg) {
+            font-size: 44px;
+        }
+
+        &__box {
+            @include roundedShape;
+
+            background: $darkestGray;
+            color:$white;
+            padding: 10px;
+            margin-right: -15px;
+
+            @include mq(sm) {
+                width: 50%;
+                padding: 20px;
+                margin: -50px 0 0;
+            }
+
+            @include mq(lg) {
+                margin: -80px 0 0;
+                min-height: 250px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+    }
+
+    &__desc {
+        font-size: 16px;
+
+        @include mq(sm) {
+            font-size: 18px;
+        }
+    }
+
+    &__overlay {
+        background: rgba(0,0,0,.3) url('/images/home/pattern.png') repeat;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        width: 100%;
+        z-index:0;
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "hero": {
+        "taglines": [
+            {
+                "device": "desktop",
+                "text": "<strong><i>+</i> 750</strong><span>empleados</span>"
+            },
+            {
+                "device": "desktop",
+                "text": "<strong><i>+</i> 5.000 eventos </strong><span>producidos por año</span>"
+            },
+            {
+                "device": "desktop",
+                "text": "<strong><i>+</i> 90 eventos</strong><span> organizados por año</span>"
+            },
+            {
+                "device": "desktop",
+                "text": "<strong>Edicifio de 6.500</strong><span>metros cuadrados</span>"
+            },
+            {
+                "device": "desktop",
+                "text": "<strong>2 móviles</strong><span> de TV HD</span>"
+            },
+            {
+                "device": "desktop",
+                "text": "<strong>5 estudios</strong><span>de TV</span>"
+            },
+            {
+                "device": "desktop",
+                "text": "<strong>3 Salas de control</strong>"
+            },
+            {
+                "device": "desktop",
+                "text": "<strong>Archivo digital</strong><span> con más de</span><strong>30.000 eventos</strong>"
+            }
+        ],
+        "sidenote": "<strong><i>+</i></strong> Historia",
+        "reel": "Mirá nuestro show reel"
+    },
+    "produccion": {
+        "headImg": "/images/home/produccion.jpg",
+        "title": "<strong>Producción</strong> de Contenidos",
+        "text": "Torneos produce más de 18.000 horas anuales de programación para las principales señales deportivas de Latinoamérica. Por su experiencia, equipamiento y su equipo de profesionales, es la productora elegida para la transmisión de los eventos deportivos más relevantes como el mundial de FIFA, los Juegos Olímpicos, la Copa América, la Copa Libertadores, la Copa Sudamericana, y el Torneo Argentino de Primera División, entre muchos otros.",
+        "link": {
+            "url": "/produccion",
+            "text": "Información"
+        },
+        "images": [
+            "/images/home/produccion-1.jpg",
+            "/images/home/produccion-2.jpg"
+        ]
+    },
+    "comercializacion":{
+        "title": "Comercialización <strong>de derechos audiovisuales</strong>",
+        "text": "Torneos es líder en la región en la comercialización de los derechos audiovisuales de eventos deportivos.",
+        "link": {
+            "url": "/derechos",
+            "text": "Información"
+        }
+    },
+    "eventos": {
+        "title": "Organización <strong>de Eventos</strong>",
+        "text": "Torneos provee una solución llave en mano en la organización de eventos deportivos. Realiza la organización general y gestión operativa de dichos eventos, además de su comercialización y la generación de la señal televisiva. El Torneo de Verano y la Copa Argentina son ejemplos de la capacidad operativa de Torneos en este rubro.",
+        "link": {
+            "url": "/eventos",
+            "text": "Información"
+        },
+        "images": [
+            "/images/home/eventos-1.jpg",
+            "/images/home/eventos-2.jpg",
+            "/images/home/eventos-3.jpg"
+        ]
+    },
+    "licencias":{
+        "title": "<strong>LICENCIAS,<br> E-COMMERCE <br>Y PATROCINIO</strong>",
+        "text": "Trabajamos para ayudar a instituciones deportivas a agregarle valor a sus colores y a optimizar su negocio, acercando las marcas al deporte, creando y produciendo acciones, promociones y eventos que unan ambos mundos, el del marketing y el deporte.",
+        "link": {
+            "url": "/licencias",
+            "text": "Información"
+        }
+    }
+}

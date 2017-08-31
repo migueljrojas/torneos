@@ -1,0 +1,35 @@
+extends ../_layouts/base
+include ../_modules/hero/hero
+
+block title
+    title Torneos | Organización de Eventos
+
+block config
+  //- Correct base url pathing for this page
+  - var baseUrl = '../'
+
+block content
+    main.eventos
+        +hero(site.data.eventos.hero)
+        
+        section.eventos__top
+            .container
+                .row.nopadding
+                    .col-xs-24.eventos__top__col
+                        .eventos__services
+                            h2.eventos__services__title= site.data.eventos.top.servicios.title
+                            ul.eventos__services__list
+                                each service in site.data.eventos.top.servicios.list
+                                    li= service
+                        .eventos__top__highlight
+                            p= site.data.eventos.top.highlight
+                            
+        section.eventos__list
+            .container
+                each event in site.data.eventos.list
+                    .row.eventos__list__row.nopadding
+                        .col-xs-24.col-sm-13.eventos__list__text-col.wow(class=event.effecttext)
+                            h2.eventos__list__title!= event.title
+                            p.eventos__list__text= event.text
+                        .col-xs-24.col-sm-11.eventos__list__image-col.wow(class=event.effectimg)
+                            img.eventos__list__image(src=event.image)

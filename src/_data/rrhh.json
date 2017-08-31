@@ -1,0 +1,62 @@
+{
+    "hero": {
+        "title": "Recursos Humanos"
+    },
+    "top": {
+        "text":"Somos una empresa líder en la región en la organización, producción y marketing de eventos deportivos, con más de 35 años de trayectoria. En la actualidad nuestro equipo está compuesto por más de 700 empleados.",
+        "img":"/images/rrhh/top1.jpg",
+        "content":[
+            "Nuestro crecimiento se basa en una sólida cultura de trabajo en equipo, compromiso y altos estándares de calidad e integridad. Nos gusta celebrar, disfrutar nuestro trabajo y alcanzar nuevos desafíos dentro de un excelente clima laboral.",
+            "Buscamos gente profesional, innovadora y comprometida, que le guste el trabajo en equipo y que se sienta orgulloso de formar parte de nuestra empresa."
+        ]
+    },
+    "middle":{
+        "title":"¿Querés trabajar con nosotros?",
+        "text": "Súmate a nuestro equipo, registrándote en nuestro portal de empleos.",
+        "img":"/images/rrhh/top2.jpg",
+        "subtitle1":"¡Te llevará solamente unos minutos!",
+        "subtitle2":"Seguínos además en",
+        "highlight":"Postulate a las <strong>Posiciones disponibles</strong>"
+    },
+    "jobs1":[
+        {
+            "name":"Operador de Caracteres",
+            "desc":"Nos encontramos en la búsqueda de un Operador de Caracteres para incorporarse en nuestro equipo de trabajo...",
+            "link":"#",
+            "isnew": true
+        },
+        {
+            "name":"Editor",
+
+            "desc":"Torneos se encuentra en la búsqueda de Editores que se encarguen de: Edición de Clips, Highligths, Entrevistas, Informes y edición completa de programas. Inserción de audios, locuciones, Fx...",
+            "link":"#",
+            "isnew": false
+        },
+        {
+            "name":"Operador de Sonido",
+            "desc":"En Torneos estamos en la busqueda de Operadores de Sonido.",
+            "link":"#",
+            "isnew": false
+        }
+    ],
+    "jobs2":[
+        {
+            "name":"Asistente de Cámara",
+            "desc":"Nos encontramos en la búsqueda de un asistente de cámara que realice las siguientes funciones:<br>- Encender las cámaras y alinearlas en su posición para  ajustes previos...",
+            "link":"#",
+            "isnew": false
+        },
+        {
+            "name":"Asistente de producción",
+            "desc":"Nos encontramos en la busqueda de asistentes de producción para formar parte de nuestra empresa. Sera valorado algun tipo de conocimiento en la tarea.",
+            "link":"#",
+            "isnew": false
+        },
+        {
+            "name":"Director de Cámaras",
+            "desc":"Nos encontramos en la búsqueda de Directores de Cámaras. Deberá contar con experiencia comprobable en la tarea en productoras o canales de TV",
+            "link":"#",
+            "isnew": false
+        }
+    ]
+}

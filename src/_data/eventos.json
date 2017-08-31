@@ -1,0 +1,58 @@
+{
+    "hero":{
+        "title":"Eventos",
+        "desc": "Torneos provee una solución llave en mano en la organización de eventos deportivos. Realiza la organización general y gestión operativa de dichos eventos, además de su comercialización y la generación de la señal televisiva."
+    },
+    "top":{
+        "servicios":{
+            "title":"Servicios:",
+            "list":[
+                "Organizacion del evento.",
+                "Logística de viajes.",
+                "Soporte y coordinación con los equipos.",
+                "Búsqueda y selección de Estadios.",
+                "Servicio de logística de árbitros.",
+                "Relaciones con autoridades de los clubes, con sponsors y Relaciones institucionales con la Asociación de Fútbol Aregentino.",
+                "Prensa y acreditaciones."
+            ]
+        },
+        "highlight": "torneos organiza la copa argentina y el fútbol de verano, eventos que han sumado prestigio a lo largo de los años."
+    },
+    "list":[
+        {
+            "title":"Copa Argentina",
+            "text":"La Copa Argentina es un torneo oficial de la  Asociación del Fútbol Argentino. Es el único torneo nacional e integrador donde participan todas las categorías del futbol argentino. Se juega por el sistema de eliminación directa, y el ganador obtiene la clasificación para la Copa Conmebol Libertadores de América y participa de la disputa de la Supercopa Argentina.",
+            "image": "/images/eventos/evento1.jpg",
+            "effecttext":"fadeInLeft",
+            "effectimg":"fadeInRight"
+        },
+        {
+            "title":"Amistosos",
+            "text":"Torneos posee los derechos exclusivos para la organización integral de los partidos amistosos de la Selección Argentina de fútbol categoría mayor y los seleccionados sub 20, sub 23, Sub 17, selección olímpica y local.",
+            "image": "/images/eventos/evento2.jpg",
+            "effecttext":"fadeInRight",
+            "effectimg":"fadeInLeft"
+        },
+        {
+            "title":"Fútbol de Verano",
+            "text":"Desde hace más de dos décadas, Torneos está a cargo de la organización y producción integral de los Torneos de Verano de fútbol disputados por los equipos más prestigiosos de la Argentina en los estadios y ciudades veraniegas más importantes. La participación de los equipos con mayor convocatoria y su coincidencia con el período de receso del fútbol oficial confieren al Fútbol de Verano una importante audiencia televisiva y a Torneos el liderazgo en el fútbol estival.",
+            "image": "/images/eventos/evento3.jpg",
+            "effecttext":"fadeInLeft",
+            "effectimg":"fadeInRight"
+        },
+        {
+            "title":"<span>Exhibición</span> Juan Martín del Potro",
+            "text":"Torneos fue un de las empresas encargada de la organización y producción integral de los 2 partidos que JM del Potro disputó contra David Ferrer los días 27 y 28 de Diciembre 2016 tanto en Buenos Aires como en Mar del Plata.",
+            "image": "/images/eventos/evento4.jpg",
+            "effecttext":"fadeInRight",
+            "effectimg":"fadeInLeft"
+        },
+        {
+            "title":"<span>Pelea</span> Maravilla Martínez",
+            "text":"Torneos formó parte de la organización de este Evento histórico, por el honor y la gloria. Fue un show único e irrepetible, que marcó el regreso del boxeo argentino a las grandes veladas de categoría internacional. Ante 40.000 personas, en el estadio de Velez Sarsfield, 5 peleas previas, la participación estelar de Bajo fondo con Gustavo Santaolla y René de Calle 13 y la gran pelea de fondo entre Sergio Maravilla Martinez y Martin Power Murray. El argentino retuvo la corona e hizo vibrar a todo el país.",
+            "image": "/images/eventos/evento5.jpg",
+            "effecttext":"fadeInLeft",
+            "effectimg":"fadeInRight"
+        }
+    ]
+}

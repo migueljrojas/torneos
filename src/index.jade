@@ -1,0 +1,91 @@
+extends _layouts/base
+
+include _modules/slider/slider
+
+block title
+    title Torneos | Producción Audiovisual
+
+block content
+    main.home
+        section.home__hero
+            img.home__hero__placeholder(src="/images/home/hero-placeholder.jpg")
+            .home__hero__video
+                .embed-responsive
+                    iframe(src="https://www.youtube.com/embed/G4t6TqG5LM8?rel=0&controls=0&showinfo=0&autoplay=1&mute=1")
+                .home__hero__video-overlay
+            
+            .home__hero__heading
+                .home__hero__reel.wow.fadeInLeftBig
+                    a.play(href="#")
+                        span._circle
+                        span._triangle
+                    p= site.data.home.hero.reel 
+                    
+                    
+                .home__hero__heading-emblem.wow.fadeInRightBig
+                    | <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#emblem"></use></svg>
+                    
+                //.home__hero__heading-taglines--mobile!= site.data.home.hero.taglines[0].text
+                    
+                +slider('home__hero__heading-taglines wow fadeInRightBig')
+                    each phrase in site.data.home.hero.taglines
+                        if phrase.device == "desktop"
+                            div!= phrase.text
+                            
+                .home__hero__heading-sidenote.wow.fadeInRightBig
+                    a(href="/quienes-somos")
+                        span!= site.data.home.hero.sidenote
+        
+        section.home__body
+            article.home__produccion
+                .container
+                    .row
+                        img.col-xs-24.col-sm-14.img-responsive.home__produccion__head-img.wow.fadeInRightBig(src=site.data.home.produccion.headImg)
+                        .col-xs-24.col-sm-10
+                            .home__produccion__head.wow.fadeInLeftBig
+                                .home__produccion__emblem
+                                    | <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#emblem"></use></svg>
+                                h2.home__produccion__title!= site.data.home.produccion.title
+                    .row
+                        .col-xs-24.col-sm-12
+                            .home__produccion__text.wow.fadeInLeftBig
+                                p= site.data.home.produccion.text
+                                a.plus-link(href=site.data.home.produccion.link.url)= site.data.home.produccion.link.text
+                        .col-xs-24.col-sm-12.home__produccion__images
+                            each img, index in site.data.home.produccion.images
+                                img.img-responsive.wow.fadeInUp(src=img, data-wow-delay="#{(index + 1)/4}s")
+            
+            article.home__comercializacion
+                .home__comercializacion__text
+                    h2.home__comercializacion__title!= site.data.home.comercializacion.title
+                    p= site.data.home.comercializacion.text
+                    a.plus-link(href=site.data.home.comercializacion.link.url)= site.data.home.comercializacion.link.text
+
+            article.home__eventos
+                .container
+                    .row
+                        .col-xs-24.col-sm-14
+                            .home__eventos__images
+                                each img, index in site.data.home.eventos.images
+                                    img.img-responsive.wow.fadeInUp(src=img, data-wow-delay="#{(index + 1)/4}s")
+                        .col-xs-24.col-sm-10
+                            .home__eventos__text
+                                h2.home__eventos__title!= site.data.home.eventos.title
+                                p= site.data.home.eventos.text
+                                a.plus-link(href=site.data.home.eventos.link.url)= site.data.home.eventos.link.text
+                                img.img-responsive.wow.fadeInUp(src="/images/home/eventos-4.jpg")
+
+            article.home__licencias
+                .container
+                    .row
+                        .col-xs-24.col-sm-10.col-md-offet-2.home__licencias__image-col
+                            .home__licencias__image
+                                img.img-responsive.wow.fadeInRightBig(src="/images/home/licencias.jpg")
+                        .col-xs-24.col-sm-14.col-md-12.home__licencias__text-col
+                            .home__licencias__text.wow.fadeInLeft
+                                h2.home__licencias__title!= site.data.home.licencias.title
+                                p= site.data.home.licencias.text
+                                a.plus-link(href=site.data.home.licencias.link.url)= site.data.home.licencias.link.text
+                                
+            
+                

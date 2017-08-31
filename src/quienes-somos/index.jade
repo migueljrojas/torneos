@@ -1,0 +1,42 @@
+extends ../_layouts/base
+include ../_modules/hero/hero
+
+block title
+    title Torneos | Quienes Somos
+
+block config
+  //- Correct base url pathing for this page
+  - var baseUrl = '../'
+
+block content
+    main.nosotros
+        +hero(site.data.nosotros.hero)
+            .nosotros__emblem
+                | <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#emblemOriginal"></use></svg>
+        
+        section.nosotros__top
+            .container
+                .row.nopadding
+                    .col-xs-24.col-sm-12.col-md-7.nosotros__top__text
+                        p.nosotros__text= site.data.nosotros.top.text
+                    .col-xs-24.col-sm-12.col-md-17.nosotros__top__photos.nosotros__top__photos--first
+                        img.img-responsive(src=site.data.nosotros.top.images[0])
+                        img.img-responsive(src=site.data.nosotros.top.images[1])
+            .nosotros__top__photos.nosotros__top__photos--fullwidth
+                img.img-responsive(src=site.data.nosotros.top.images[2])
+                img.img-responsive(src=site.data.nosotros.top.images[3])
+        section.nosotros__history
+            .container
+                .row
+                    .col-xs-24
+                        .nosotros__history__title__box
+                            h2.nosotros__history__title= site.data.nosotros.history.title
+                        each segment, index in site.data.nosotros.history.lists
+                            ul(class="nosotros__history__list nosotros__history__list--#{index} clearfix")
+                                each item, index in segment.list
+                                    li(class="nosotros__history__item nosotros__history__item--#{item.mode} wow fadeInUp", data-wow-delay="#{(index + 1)/4}s")
+                                        h3._year= item.year
+                                        p._text!= item.text
+                                        if item.img
+                                            img(src=item.img)
+                                         

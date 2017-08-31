@@ -1,0 +1,73 @@
+{
+    "hero": {
+        "title": "Licencias",
+        "desc": "Nuestra Unidad de Negocios se dedica a la explotación comercial del deporte y sus marcas a través de: Licencias, tiendas online, tiendas físicas, promociones y acciones en partidos. Trabajamos para ayudar a instituciones deportivas a agregarle valor a sus colores y a optimizar su negocio, acercando las marcas al deporte, creando y produciendo acciones, promociones y eventos que unan ambos mundos, el del marketing y el deporte."
+    },
+    "top": {
+        "text":"Hoy nuestra División Licencias explota comercialmente en forma exclusiva las marcas de los siguientes Clubes: River Plate, Independiente, Racing, San Lorenzo, Rosario Central, Newell´s Old Boys, Estudiantes y AFA Selección Argentina.",
+        "logos":[
+            "/images/licencias/logo1.jpg",
+            "/images/licencias/logo2.jpg",
+            "/images/licencias/logo3.jpg",
+            "/images/licencias/logo4.jpg",
+            "/images/licencias/logo5.jpg",
+            "/images/licencias/logo6.jpg",
+            "/images/licencias/logo7.jpg",
+            "/images/licencias/logo8.jpg"
+        ]
+    },
+    "ecommerce": {
+        "title": "E-Commerce",
+        "subtitle": "Nuestras tiendas online <strong>oficiales de clubes</strong>",
+        "text": "Contamos con una unidad de negocios dedicada al desarrollo de Tiendas online Oficiales de Clubes de Fútbol en Argentina, a través de las cuales nuestros clubes tienen la posibilidad de ofrecer sus productos (indumentaria oficial y productos licenciados) a todos sus socios y simpatizantes dispersos geográficamente.",
+        "shops": [
+            {
+                "title": "AFA",
+                "img": "/images/licencias/shop1.jpg",
+                "links": [{
+                    "url":"http://www.afashop.com.ar",
+                    "text":"www.afashop.com.ar"
+                }]
+            },
+            {
+                "title": "Boca Juniors",
+                "img": "/images/licencias/shop2.jpg",
+                "links": [
+                    {
+                        "url":"http://www.bocashop.com.ar",
+                        "text":"www.bocashop.com.ar"
+                    },
+                    {
+                        "url":"http://eshop.bocajuniors.com.ar",
+                        "text":"eshop.bocajuniors.com.ar",
+                        "desc": "(mercado internacional)"
+                    }
+                ]
+            },
+            {
+                "title": "Independiente",
+                "img": "/images/licencias/shop3.jpg",
+                "links": [
+                    {
+                        "url":"http://www.diablosoy.com",
+                        "text":"www.diablosoy.com"
+                    }
+                ]
+            },
+            {
+                "title": "Estudiantes",
+                "img": "/images/licencias/shop4.jpg",
+                "links": [
+                    {
+                        "url":"http://www.tiendapincha.com",
+                        "text":"www.tiendapincha.com"
+                    }
+                ]
+            }
+        ]
+    },
+    "patrocinio": {
+        "title": "Patrocinio",
+        "text": "Torneos es el agente comercial exclusivo de la ASOCIACION DEL FÚTBOL ARGENTINO. Además tiene los derechos comerciales exclusivos de los eventos propios: COPA ARGENTINA y FÚTBOL DE VERANO."
+    }
+}
