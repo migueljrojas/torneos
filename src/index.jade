@@ -16,7 +16,7 @@ block content
             
             .home__hero__heading
                 .home__hero__reel.wow.fadeInLeftBig
-                    a.play(href="#")
+                    a.play(href="#", data-modal="open")
                         span._circle
                         span._triangle
                     p= site.data.home.hero.reel 
@@ -88,4 +88,10 @@ block content
                                 a.plus-link(href=site.data.home.licencias.link.url)= site.data.home.licencias.link.text
                                 
             
-                
+    .c-modal
+        a.c-modal__close._button(data-modal="close")
+            i.fa.fa-times
+        .c-modal__container
+            .embed-responsive.-map
+                iframe(src="//content.jwplatform.com/players/RI8es9uf-dU5uvUy0.html")
+            

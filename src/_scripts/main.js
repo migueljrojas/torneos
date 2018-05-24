@@ -12,12 +12,14 @@ var Home = require('./home');
 var Derechos = require('./derechos');
 var Historia = require('./historia');
 var Produccion = require('./produccion');
+var Modal = require('./modal');
 
 $(function() {
     require('../../bower_components/bootstrap-sass/assets/javascripts/bootstrap.min');
     require('../../bower_components/slick-carousel/slick/slick');
 
     new Home();
+    new Modal();
     new Derechos();
     new Header();
     new Slider();
