@@ -53,6 +53,13 @@
             "image": "/images/eventos/evento5.jpg",
             "effecttext":"fadeInLeft",
             "effectimg":"fadeInRight"
+        },
+        {
+            "title":"<span>1ra Edición</span> Córdoba Open",
+            "text":"Torneos está a cargo de la organización integral del Córdoba Open, un evento oficial del circuito internacional ATP cuya primera edición se desarrolló del 2 al 10 de Febrero de 2019 en el Mario A. Kempes. Con este certamen se abre la temporada del circuito en Latinoamérica y su realización está garantizada por los próximos 10 años.",
+            "image": "/images/eventos/evento6.jpg",
+            "effecttext":"fadeInRight",
+            "effectimg":"fadeInLeft"
         }
     ]
 }

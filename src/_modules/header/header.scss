@@ -13,7 +13,7 @@
         @include mq(md) {
             background: $blue;
             padding: 10px;
-            height: 60px;
+            height: 90px;
             position: relative;
         }
     }
@@ -98,9 +98,9 @@
             border-bottom:none;
             padding: 0;
             float: right;
-            width: calc(100% - 140px);
+            width: calc(100% - 60px);
             justify-content: space-between;
-            top:10px;
+            top:40px;
         }
     }
 
@@ -111,6 +111,8 @@
 
         @include mq(md){
             flex-direction: row;
+            justify-content: center;
+            width: 100%;
         }
 
         a {
@@ -133,14 +135,20 @@
 
             @include mq(md){
                 border:none;
-                margin-right: 20px;
+                margin-right: 60px;
             }
 
-            &:last-child {
-                a {
-                    color:$darkBlue;
-                }
+            @include mq(lg){
+                border:none;
+                margin-right: 20px;
+                margin-left: 20px;
             }
+
+            // &:last-child {
+            //     a {
+            //         color:$darkBlue;
+            //     }
+            // }
 
             &:before {
                 transition: all $duration $easing;
@@ -167,6 +175,15 @@
         }
     }
 
+    &__social {
+        display: flex;
+        margin-right: 20px;
+
+        li {
+            margin-left: 10px;
+        }
+    }
+
     &__lang {
         color:$darkBlue;
         font-size:18px;
@@ -177,7 +194,7 @@
 
         @include mq(md){
             position: absolute;
-            top:-5px;
+            top:-45px;
             right:20px;
         }
 

@@ -20,8 +20,15 @@ header.header.-ontop
                                     li
                                         a(href=link.url)= link.name
             .header__lang
+                ul.header__social
+                    each item in site.data.social
+                        li
+                            a(href=item.url, target="_blank")
+                                i.fa(class="fa-#{item.name}")
+
                 a(href="#") EN
                 | /
                 a.-active(href="#") ES
+
             
             

@@ -1,0 +1,71 @@
+extends ../_layouts/base
+
+include ../_modules/hero/hero
+
+block title
+    title Torneos | Recursos Humanos
+
+block config
+  //- Correct base url pathing for this page
+  - var baseUrl = '../'
+
+block content
+    main.sustentabilidad
+        +hero(site.data.sustentabilidad.hero)
+        
+        section.sustentabilidad__body
+            .container
+                .row
+                    .col-xs-24
+                        p.sustentabilidad__text.sustentabilidad__text--uppercase= site.data.sustentabilidad.top.text
+                        
+            
+            .container-fluid
+                .row.nopadding-xs
+                    .col-xs-24.col-sm-12.sustentabilidad__body__imgcol
+                        img.sustentabilidad__body__img(src=site.data.sustentabilidad.top.img)
+                    .col-xs-24.col-sm-12
+                        .sustentabilidad__half-container
+                            each p in site.data.sustentabilidad.top.content
+                                p.sustentabilidad__text.sustentabilidad__text--body= p
+                            
+                            //- .sustentabilidad__body__highlight.wow.fadeInRightBig
+                            //-     h2
+                            //-         | ¡Somos torneos y te  
+                            //-         strong estamos buscando!
+                                
+        section.nosotros__history
+            .container
+                .row
+                    .col-xs-24
+                        .nosotros__history__title__box
+                            h2.nosotros__history__title= site.data.nosotros.history.title
+                        each segment, index in site.data.sustentabilidad.history.lists
+                            ul(class="nosotros__history__list nosotros__history__list--#{index} clearfix")
+                                each item, index in segment.list
+                                    li(class="nosotros__history__item nosotros__history__item--#{item.mode} wow fadeInUp", data-wow-delay="#{(index + 1)/4}s")
+                                        h3._year= item.year
+                                        p._text!= item.text
+                                        if item.img
+                                            img(src=item.img)
+                            
+        section.sustentabilidad__middle
+            .container-fluid
+                .row.nopadding
+                    .col-xs-24.col-sm-18.col-md-14.pull-right.sustentabilidad__middle__titlecol
+                        h2.sustentabilidad__middle__title!= site.data.sustentabilidad.middle.highlight
+                    
+        section.sustentabilidad__list
+            .container
+                each event in site.data.sustentabilidad.programas
+                    .row.sustentabilidad__list__row.nopadding
+                        .col-xs-24.col-sm-13.sustentabilidad__list__text-col.wow(class=event.effecttext)
+                            h2.sustentabilidad__list__title!= event.title
+                            each p in event.text
+                                p.sustentabilidad__list__text= p
+                        .col-xs-24.col-sm-11.sustentabilidad__list__image-col.wow(class=event.effectimg)
+                            img.sustentabilidad__list__image(src=event.image)
+
+                            
+                        
+                    

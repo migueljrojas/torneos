@@ -1,0 +1,134 @@
+{
+    "hero": {
+        "title": "Sustentabilidad + RSE"
+    },
+    "top": {
+        "text":"Nuestro liderazgo en la industria, nos plantea el desafío de integrar nuevos criterios de responsabilidad social a nuestros procesos y a la toma de decisiones.",
+        "img":"/images/sustentabilidad/hands.jpg",
+        "content":[
+            "Recientemente hemos creado el área de Sustentabilidad y Responsabilidad Social Empresaria (RSE) para coordinar desde allí los esfuerzos y acciones necesarias para convertirnos en una empresa de triple impacto: económico, social, ambiental.",
+             "Un primer paso del área ha sido avanzar con el diseño de una nueva estrategia de inversión social para dar continuidad a las iniciativas comunitarias que anteriormente se desarrollaban a través de la Fundación Torneos.  Se han fijado objetivos de acción claros, vinculados a nuestros valores y con foco temático en la  producción de contenidos y el deporte como herramienta de transformación social."
+        ]
+    },
+    "history": {
+        "title": "Nuestra Historia",
+        "lists": [
+            {
+                "list": [
+                    {
+                        "year":"2009",
+                        "mode":"right",
+                        "text":"CREACIÓN DE LA FUNDACIÓN TORNEOS",
+                        "img": "/images/sustentabilidad/fundacion-torneos.png"
+                    },
+                    {
+                        "year":"2009 - 2011",
+                        "mode":"left",
+                        "text":"CAMPAÑA DE PROMOCIÓN DE LA LECTURA EN LA INFANCIA",
+                        "img": "/images/sustentabilidad/logo-leer.jpg"
+                    }
+                ]
+            },
+            {
+                "list": [
+                    {
+                        "year":"2009 - Actualidad",
+                        "mode":"right",
+                        "text":"",
+                        "img": "/images/sustentabilidad/escuela+.png"
+                    },
+                    {
+                        "year":"2010 - 2015",
+                        "mode":"left",
+                        "text":"Subasta a beneficio",
+                        "img": "/images/sustentabilidad/artball.png"
+                    },
+                    {
+                        "year":"2010 - 2012",
+                        "mode":"right",
+                        "text":"Evento de recaudación de fondos",
+                        "img": "/images/sustentabilidad/logo-copa-fundacion.png"
+                    },
+                    {
+                        "year":"2011 - Actualidad",
+                        "mode":"left",
+                        "text":"Edición Luján",
+                        "img": "/images/sustentabilidad/comunidades.png"
+                    },
+                    {
+                        "year":"2011-2016",
+                        "mode":"right",
+                        "text":"Voluntariado corporativo",
+                        "img": "/images/sustentabilidad/entre-todos.jpg"
+                    },
+                    {
+                        "year":"2014 - 2015",
+                        "mode":"left",
+                        "text":"Edición Bariloche",
+                        "img": "/images/sustentabilidad/comunidades.png"
+                    }
+                ]
+            },
+            {
+                "list": [
+                    {
+                        "year":"2015 - 2017",
+                        "mode":"right",
+                        "text":"",
+                        "img": "/images/sustentabilidad/movete.png"
+                    },
+                    {
+                        "year":"2016 - Actualidad",
+                        "mode":"left",
+                        "text":"",
+                        "img": "/images/sustentabilidad/futbol-positivo.png"
+                    },
+                    {
+                        "year":"2015 - 2016",
+                        "mode":"right",
+                        "text":"",
+                        "img": "/images/sustentabilidad/promotores-deportivos.jpg"
+                    },
+                    {
+                        "year":"2019",
+                        "mode":"left",
+                        "text":"CREACIÓN DE LA GERENCIA DE SUSTENTABILIDAD Y RSE"
+                    }
+                ]
+            }
+        ]
+    },
+    "middle":{
+        "highlight":"Nuestros <strong>Programas</strong>"
+    },
+    "programas":[
+        {
+            "title":"ESCUELA PLUS+",
+            "text":["Apunta a colaborar, complementar y enriquecer el contenido educativo para las escuelas primarias y secundarias de América Latina. Para lograrlo, se utiliza la tecnología de DIRECTV® a través del equipo decodificador DIRECTV Plus ™. Desde Torneos integramos la red de socios del programa, los cuales producimos los contenidos que son utilizados por esta plataforma educativa."],
+            "image": "/images/sustentabilidad/empresas.jpg",
+            "effecttext":"fadeInLeft",
+            "effectimg":"fadeInRight"
+        },
+        {
+            "title":"COMUNIDADES EN ACCIÓN",
+            "text":["Es un programa propio que tiene por objetivo promover la actividad física en niños y niñas dentro y fuera del horario escolar. Se desarrolla en escuelas públicas primarias y clubes de barrio. Hasta el momento, trabajamos con: 23 escuelas, 200 docentes y profesores, 4.500 niñas, niños y jóvenes. 3 localidades: Luján, Bariloche y Vicente López."],
+            "image": "/images/sustentabilidad/comunidades-programa.jpg",
+            "effecttext":"fadeInRight",
+            "effectimg":"fadeInLeft"
+        },
+        {
+            "title":"FÚTBOL POSITIVO+",
+            "text":[
+                "En el marco de Copa Argentina, con esta iniciativa buscamos mejorar las condiciones edilicias de clubes sociales ubicados en las provincias en donde se desarrolla el torneo y  que trabajan el deporte como herramienta de desarrollo local e inclusión.",
+                 "Los clubes participantes del programa son:",             
+                "- Fundación Alfarcito (Paraje “El Mollar”, Provincia de Salta)",
+                "- Club de Fútbol Infantil C.A.R.A. Jr. (Barrio República Argentina, Provincia de Formosa)",
+                "- Escuela Media “Augusto Pulenta” (Villa Don Bosco, Provincia de San Juan)",
+                "- Asociación Civil Club Social Deportivo y Cultura Atlético Rivadavia (Cutral-Có, Provincia de Neuquén)"
+            ],
+            "image": "/images/sustentabilidad/futbol.jpg",
+            "effecttext":"fadeInLeft",
+            "effectimg":"fadeInRight"
+        }
+    ]
+}

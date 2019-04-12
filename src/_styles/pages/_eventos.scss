@@ -187,7 +187,8 @@
                 }
             }
 
-            &:nth-child(4){
+            &:nth-child(4),
+            &:nth-child(6) {
                 #{$l}__title {
                     span{
 
@@ -206,10 +207,9 @@
                 }
 
                 #{$l}__title {
-                    color: $white;
+                    color: $black;
                     span {
-                        color: $black;
-                        display: block;
+                        color: $midGray;
                     }
                 }
             }

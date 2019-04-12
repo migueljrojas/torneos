@@ -1,6 +1,10 @@
-mixin hero(data)
-    section.hero
-        .hero__overlay
+mixin hero(data, image)
+    if image
+        section.hero(style="background-image:url('#{image}')")
+            .hero__overlay
+    else
+        section.hero
+            .hero__overlay
     .container
         .row
             .col-xs-24
